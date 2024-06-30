@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(153, 153, 153);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta a altura do corpo para preencher a altura da janela */
+}
+
+.perfil {
+    border-radius: 20px;
+    padding: 30px; /* Reduzi o padding para ajustar melhor */
+    position: absolute; /* Mantive a posição absoluta */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.685);
+}
+
+.btns,img{
+    width: 20px;
+    display: inline;
+    margin: 10px;
+    
+}
+.btns button{
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(205, 252, 219);
+    transition: 0.5s;
+}
+.btns button:hover{
+    transition: 0.5s;
+  background-color: rgb(139, 255, 174);
+  box-shadow: 1px 1px 20px  rgb(41, 41, 41);
+}
+.foto{
+    width: 100px;
+    border-radius: 50%;
+}
+.contatos button{
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.contatos button b{
+    background-color: rgb(22, 240, 88);
+    border-radius: 30%;
+    color: white;
+}
